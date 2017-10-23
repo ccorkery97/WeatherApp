@@ -26,7 +26,7 @@ var currentTempInCelsius;
       getWeather(lat, lon);
     });
   } else {
-    console.log("Geolocation is not supported by this browser.");
+    console.log("Geolocation is not supported.");
   }
   //  if (navigator.geolocation) {
   //   window.onload = function () {
