@@ -21,8 +21,8 @@ var currentTempInCelsius;
     navigator.geolocation.getCurrentPosition(function (position) {
       var lat = "lat=" + position.coords.latitude;
       var lon = "lon=" + position.coords.longitude;
-      // var lat = "lat=" + 46.7776;
-      // var lon = "lon=" + 121.7429;
+      // var lat = "lat=" + 37;
+      // var lon = "lon=" + 21;
       getWeather(lat, lon);
     });
   } else {
